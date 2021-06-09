@@ -38,10 +38,8 @@
     ]
   },
   "devDependencies": {
+    "deploy": "gh-pages -d dist",
     "gh-pages": "^3.2.0",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
   }
 }
-
-
